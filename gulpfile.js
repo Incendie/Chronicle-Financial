@@ -1,4 +1,5 @@
 "use strict";
+/*jshint esversion: 6 */
 
 // gulpfile.js
 const gulp = require('gulp');
