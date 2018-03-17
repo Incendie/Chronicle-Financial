@@ -15,6 +15,11 @@ const notify = require("gulp-notify");
 const plumber = require("gulp-plumber");
 const historyApiFallback = require("connect-history-api-fallback");
 
+gulp.task("public", () => {
+    gulp.src(["dev/assets/images/*"])
+    .pipe(gulp.dest("public/images/"));
+});
+
 gulp.task("styles", () => {
     return gulp
         .src("./dev/styles/**/*.scss")
@@ -56,7 +61,7 @@ gulp.task("bs", () => {
     });
 });
 
-gulp.task("default", ["js", "bs", "styles"], () => {
+gulp.task("default", ["public", "js", "bs", "styles"], () => {
     gulp.watch("dev/**/*.js", ["js"]);
     gulp.watch("dev/**/*.scss", ["styles"]);
     gulp.watch("./index.html", reload);
