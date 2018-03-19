@@ -1,9 +1,53 @@
+html {
+  font-size: $fontSize;
+}
+
 body {
   font-family: $contentFont;
 }
 
 h1, h2, h3 {
   font-family: $headingFont;
-  color: $fontColour;
+  color: black;
+  margin: 0;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: $primaryColour;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+header {
+  width: 100vw;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+// * {
+//   border: 1px solid red;
+// }
+
+.wrapper {
+  max-width: calc(100vw / 1.618);
+  margin: 0 auto;
+}
