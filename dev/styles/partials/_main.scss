@@ -10,80 +10,12 @@
 .logo {
 	background-image: url("../images/chronicle-financial-300dpi.png");
 	background-position: center top;
-	max-width: 70%;
+	max-width: 90%;
 }
 
 .hero {
 	background-image: url("../images/placeholder.png");
 	margin: 10px 0;
-}
-
-nav {
-	max-width: 30%;
-}
-
-body {
-	background: none;
-}
-
-.hamburger {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	
-	span {
-		background: $primaryColour;
-		height: 7px;
-		width: 30px;
-		margin: 3px auto;
-	}
-}
-
-.links > div {
-	position: relative;
-	margin-bottom: 15px;
-}
-
-.links__overlay {
-	background: rgba(0,0,0,0.5);
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 25%;
-	font-weight: 700;
-	font-size: 2.5rem;
-  color: $fontColour;
-  margin: 0;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.contact {
-	margin-top: 20px;
-
-	p {
-		color: rgba(0,0,0,0.67);
-		font-weight: 700;
-		font-size: 1.7rem;
-		text-align: center;
-	}
-
-	a {
-		color: $primaryColour;
-	}
-
-	&:before {
-		content: "";
-		display: block;
-		width: 50%;
-		height: 1px;
-		background-color: $primaryColour;
-		position: relative;
-		top: -50%;
-		margin: 0 auto;
-	}
 }
 
 footer {
