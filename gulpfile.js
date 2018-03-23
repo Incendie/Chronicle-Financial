@@ -64,6 +64,6 @@ gulp.task("bs", () => {
 gulp.task("default", ["public", "js", "bs", "styles"], () => {
     gulp.watch("dev/**/*.js", ["js"]);
     gulp.watch("dev/**/*.scss", ["styles"]);
-    gulp.watch("./index.html", reload);
+    gulp.watch("./*.html", reload);
     gulp.watch("./public/styles/style.css", reload);
 });

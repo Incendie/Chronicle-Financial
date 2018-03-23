@@ -152,7 +152,8 @@ h2 {
   font-size: 1.5rem; }
 
 p {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  margin: 0; }
 
 header {
   width: 100vw;
@@ -243,6 +244,18 @@ nav {
     .header__nav li a {
       color: #414099; }
 
+.home .hero {
+  background-image: url("../images/placeholder.png"); }
+
+.about .hero, .contactPage .hero {
+  background-image: url("../images/Apple-Cherry-Prof-618x380.jpg"); }
+
+.contactPage .wrapper {
+  margin: 20px auto; }
+
+.contactPage__advisors > div {
+  margin: 10px auto; }
+
 .logo, .hero {
   background-size: contain;
   background-repeat: no-repeat; }
@@ -255,11 +268,11 @@ nav {
   max-width: 90%; }
 
 .hero {
-  background-image: url("../images/placeholder.png");
   margin: 10px 0; }
 
 footer {
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+  padding-top: 20px; }
   footer p {
     font-size: 1rem; }
 
@@ -283,7 +296,8 @@ footer {
   right: 0; }
 
 .contact {
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-bottom: 20px; }
   .contact p {
     color: rgba(0, 0, 0, 0.67);
     font-weight: 700;

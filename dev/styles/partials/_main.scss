@@ -1,3 +1,21 @@
+.home	.hero {
+	background-image: url("../images/placeholder.png");
+}
+
+.about .hero, .contactPage .hero {
+	background-image: url("../images/Apple-Cherry-Prof-618x380.jpg");
+}
+
+.contactPage {
+	& .wrapper {
+		margin: 20px auto;
+	}
+}
+
+.contactPage__advisors > div {
+	margin: 10px auto;
+}
+
 .logo, .hero {
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -14,12 +32,12 @@
 }
 
 .hero {
-	background-image: url("../images/placeholder.png");
 	margin: 10px 0;
 }
 
 footer {
 	border-top: 1px solid black;
+	padding-top: 20px;
 
 	p {
 		font-size: 1rem;
